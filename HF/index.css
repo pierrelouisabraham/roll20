@@ -1,0 +1,47 @@
+#info {
+    display: flex;
+    width: 80%;
+}
+
+#info input {
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#carac {
+    display: flex;
+    flex-direction: column;
+}
+
+#carac div {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+#carac div span {
+    width : 20%;
+}
+#carac input {
+    width: 10%;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+#title_comp {
+    display: flex;
+}
+
+#title_comp div {
+    display: flex;
+    flex-direction: column;
+}
+
+#title_comp select {
+    height: 20px;
+}
+
+#Description {
+    width: 70%;
+}

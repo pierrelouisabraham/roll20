@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="">
+    <section id=info>
+        <span>Nom:</span>
+        <input id="Nom">
+        <span>Race:</span>
+        <input id="Race">
+        <span>Sexe:</span>
+        <input id="Sexe">
+        <span>Age:</span>
+        <input id="Age">
+        <span>Taille:</span>
+        <input id="Taille">
+        <span>Poids:</span>
+        <input id="Poids">
+    </section>
+    <section id="carac">
+        <h1>Caractéristiques :</h1>
+        <div>
+            <span>Force:</span>
+            <input id="Force">
+        </div>
+        <div>
+            <span>Agilité:</span>
+            <input id="Agilité">
+        </div>
+        <div>
+            <span>Endurance:</span>
+            <input id="Endurance">
+        </div>
+        <div>
+            <span>Charisme:</span>
+            <input id="Charisme">
+        </div>
+        <div>
+            <span>Perception:</span>
+            <input id="Perception">
+        </div>
+        <div>
+            <span>Sagesse:</span>
+            <input id="Sagesse">
+        </div>
+        <div>
+            <span>Volonté:</span>
+            <input id="Volonté">
+        </div>
+        <div>
+            <span>N/A:</span>
+            <input id="N/A">
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <section id="Compétences">
+        <div>
+            <h1>Compétences :</h1>
+            <button onclick="addRow()">Add</button>
+        </div>
+        
+        <div id="title_comp">
+            <div id="skill_name">
+                <span>Nom :</span>
+                <input></input>
+            </div>
+            <div id="label">
+                <label for="Type">Type:</label>
+
+                <select name="Type" id="Type">
+                  <option value="Force">Force</option>
+                  <option value="Agilité">Agilité</option>
+                  <option value="Endurance">Endurance</option>
+                  <option value="Charisme">Charisme</option>
+                  <option value="Perception">Perception</option>
+                  <option value="Sagesse">Sagesse</option>
+                  <option value="Volonté">Volonté</option>
+                  <option value="N/A">N/A</option>
+                </select>
+
+            </div>
+            <div id="Bonus">
+                <span>Bonus :</span>
+                <input></input>
+            </div>
+            <div id="Description">
+                <span>Description :</span>
+                <input></input>
+            </div>
+            
+        </div>
+
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
