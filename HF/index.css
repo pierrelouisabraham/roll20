@@ -1,3 +1,10 @@
+@font-face {
+    font-family: runes;
+    src: url(./AngarsRunes_PERSONAL.ttf);
+  }
+
+
+
 #info {
     display: flex;
     width: 80%;
@@ -16,6 +23,10 @@
 #carac div {
     display: flex;
     margin-bottom: 1%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 #carac div span {
@@ -36,12 +47,49 @@
 #title_comp div {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+
+
 #title_comp select {
-    height: 20px;
+    height: 1.6em;
 }
 
 #Description {
     width: 70%;
+    align-items: baseline;
+}
+
+#Description input {
+    width: 100%;
+}
+
+#compétences {
+    display: flex;
+    border: 4mm solid rgba(95, 34, 6, 0.322);
+    flex-direction: column;
+    padding: 15px;
+}
+
+body {
+ font-family: runes;
+ font-size: 40px;
+}
+
+h1 {
+    font-size: 60px;
+    align-self: center;
+}
+
+.all-carac {
+    display: flex;
+}
+
+#compétences{
+    display: flex;
+}
+.title_section {
+    display: flex;
+    flex-direction: column;
 }
