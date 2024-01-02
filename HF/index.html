@@ -84,37 +84,34 @@
     <section id="compétences">
         <div class="title_section">
             <h1>Compétences :</h1>
-            <button onclick="addRow()">Add</button>
+            <div id="butt">
+                <button onclick="addRow()">Add</button>
+                <button onclick="save()"> Save </button>
+            </div>
         </div>
         
         <div id="title_comp">
-            <div id="skill_name">
+            <div>
                 <span>Nom :</span>
-                <input></input>
+                <div id="skill_name"> 
+                </div>
             </div>
-            <div id="label">
-                <label for="Type">Type:</label>
+        <div>
+            <label for="Type">Type:</label>
+                <div id="label">
+                </div>
+        </div>
+        <div>
+            <span>Bonus :</span>
+            <div id="bonus">
+            </div>   
+        </div>
+        <div>
+            <span>Description :</span>
+            <div id="Description">  
+            </div>
+        </div>
 
-                <select name="Type" id="Type">
-                  <option value="Force">Force</option>
-                  <option value="Agilité">Agilité</option>
-                  <option value="Endurance">Endurance</option>
-                  <option value="Charisme">Charisme</option>
-                  <option value="Perception">Perception</option>
-                  <option value="Sagesse">Sagesse</option>
-                  <option value="Volonté">Volonté</option>
-                  <option value="N/A">N/A</option>
-                </select>
-
-            </div>
-            <div id="Bonus">
-                <span>Bonus :</span>
-                <input></input>
-            </div>
-            <div id="Description">
-                <span>Description :</span>
-                <input></input>
-            </div>
             
         </div>
 

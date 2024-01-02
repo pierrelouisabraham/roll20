@@ -3,7 +3,7 @@
 
 const nameSkill = document.querySelector('#skill_name');
 const label = document.querySelector('#label');
-const bonus = document.querySelector('#Bonus');
+const bonus = document.querySelector('#bonus');
 const description = document.querySelector('#Description');
 
 
@@ -33,7 +33,20 @@ function addRow() {
 }
 
 
+function save() {
+    const myObject = {};
+    const myElement = document.getElementById("skill_name");
+    const myType = document.getElementById("label");
+    const myBonus = document.getElementById("bonus");
+    const  myDescription = document.getElementById("Description")
+    console.log("debug")
+    for (var i = 1; i <= myElement.childElementCount; i++) {
+        console.log(myElement.childNodes.item(i).value, myType.childNodes.item(i).value,
+        myBonus.childNodes[i].value, myDescription.childNodes[i].value,i);
+        myObject = 
 
+    }
+}
 
 async function init() {
   

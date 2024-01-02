@@ -46,8 +46,14 @@
     margin-left: 1%;
 }
 
+#butt {
+    display: flex;
+    justify-content: space-between;
+}
+
 #title_comp {
     display: flex;
+    justify-content: space-between;
 }
 
 #title_comp div {
@@ -56,19 +62,13 @@
     align-items: center;
 }
 
-
-
-#title_comp select {
-    height: 1.6em;
-}
-
 #Description {
     width: 70%;
     align-items: baseline;
 }
 
 #Description input {
-    width: 100%;
+    width: 425px;
 }
 
 #compétences {
@@ -121,15 +121,17 @@ input{
     margin-right: 1%;
     margin-left: 1%;
     height: 26px;
+    align-self: center;
 }
 
 select {
     background: transparent;
     border: none;
+    height: 28px;
 }
 
 label {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 button {
