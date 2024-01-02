@@ -8,6 +8,12 @@
 #info {
     display: flex;
     width: 80%;
+    align-items: center;
+}
+
+#info div {
+    display: flex;
+    width: 33%;
 }
 
 #info input {
@@ -75,11 +81,22 @@
 body {
  font-family: runes;
  font-size: 40px;
+ background-image: url("./v805-kul-14.jpg");
+
+
 }
 
 h1 {
     font-size: 60px;
     align-self: center;
+    filter: brightness(2);
+    color: rgb(63, 5, 5);
+}
+
+span {
+    filter: brightness(2);
+    font-size: 40px;
+    color: black;
 }
 
 .all-carac {
@@ -92,4 +109,40 @@ h1 {
 .title_section {
     display: flex;
     flex-direction: column;
+}
+
+input{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    width: 20%;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 1%;
+    margin-left: 1%;
+    height: 26px;
+}
+
+select {
+    background: transparent;
+    border: none;
+}
+
+label {
+    font-size: 50px;
+}
+
+button {
+    font-family: runes;
+    background: transparent;
+    border: none;
+    font-size: 45px;
+}
+
+button:hover {
+    color: blue;
+}
+
+#skill_name input {
+    width: 80%;
 }
